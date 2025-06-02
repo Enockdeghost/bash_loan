@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLoans - Your Financial Partner</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-coins"></i> QuickLoans
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-sw="Nyumbani">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link" data-en="Our Loans" data-sw="Mikopo Yetu">Our Loans <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#vip-loan" data-en="VIP Loan" data-sw="Mkopo wa VIP">VIP Loan</a>
+                        <a href="#imarika-loan" data-en="Imarika Loan" data-sw="Mkopo wa Imarika">Imarika Loan</a>
+                        <a href="#emergency-loan" data-en="Emergency Loan" data-sw="Mkopo wa Dharura">Emergency Loan</a>
+                        <a href="#stawika-loan" data-en="Stawika Loan" data-sw="Mkopo wa Stawika">Stawika Loan</a>
+                        <a href="#jikombe-loan" data-en="Jikombe Loan" data-sw="Mkopo wa Jikombe">Jikombe Loan</a>
+                    </div>
+                </li>
+                <li><a href="#about" class="nav-link" data-en="About" data-sw="Kuhusu">About</a></li>
+                <li><a href="#faq" class="nav-link" data-en="FAQs" data-sw="Maswali">FAQs</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-sw="Wasiliana">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="lang-toggle" id="langToggle">
+                    <span class="lang-text">SW</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slideshow -->
+    <section class="hero" id="home">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1 data-en="Quick Loans for Every Need" data-sw="Mikopo ya Haraka kwa Kila Haja">Quick Loans for
+                        Every Need</h1>
+                    <p data-en="Get instant access to flexible loan solutions designed for your lifestyle"
+                        data-sw="Pata upatikanaji wa papo hapo wa suluhisho za mikopo zenye kubadilika zilizobuniwa kwa maisha yako">
+                        Get instant access to flexible loan solutions designed for your lifestyle</p>
+                    <a href="#loans" class="cta-button" data-en="Apply Now" data-sw="Omba Sasa">Apply Now</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1 data-en="Your Financial Freedom Starts Here" data-sw="Uhuru Wako wa Kifedha Unaanza Hapa">Your
+                        Financial Freedom Starts Here</h1>
+                    <p data-en="Competitive rates, fast approval, and personalized service"
+                        data-sw="Viwango vya ushindani, idhini ya haraka, na huduma ya kibinafsi">Competitive rates,
+                        fast approval, and personalized service</p>
+                    <a href="#loans" class="cta-button" data-en="Learn More" data-sw="Jifunze Zaidi">Learn More</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1 data-en="Trusted by Thousands" data-sw="Inaaminika na Maelfu">Trusted by Thousands</h1>
+                    <p data-en="Join our community of satisfied customers who achieved their goals"
+                        data-sw="Jiunge na jamii yetu ya wateja waliorimiza waliofikia malengo yao">Join our community
+                        of satisfied customers who achieved their goals</p>
+                    <a href="#loans" class="cta-button" data-en="Get Started" data-sw="Anza">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loan Types Section -->
+    <section class="loan-types" id="loans">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Loan Products" data-sw="Bidhaa za Mikopo Yetu">Our Loan Products</h2>
+            <div class="loan-grid">
+                <div class="loan-card">
+                    <div class="loan-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3 data-en="VIP Loan" data-sw="Mkopo wa VIP">VIP Loan</h3>
+                    <p data-en="Premium loan product with exclusive benefits and competitive rates for our valued customers."
+                        data-sw="Bidhaa ya mkopo wa kwanza na faida za kipekee na viwango vya ushindani kwa wateja wetu waalemewa.">
+                        Premium loan product with exclusive benefits and competitive rates for our valued customers.</p>
+                    <a href="#" class="learn-more" data-en="Learn More" data-sw="Jifunze Zaidi">Learn More</a>
+                </div>
+
+                <div class="loan-card">
+                    <div class="loan-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 data-en="Imarika Loan" data-sw="Mkopo wa Imarika">Imarika Loan</h3>
+                    <p data-en="Development loan designed to help you build and grow your projects with flexible terms."
+                        data-sw="Mkopo wa maendeleo uliobuniwa kukusaidia kujenga na kukuza miradi yako kwa masharti yanayobadilika.">
+                        Development loan designed to help you build and grow your projects with flexible terms.</p>
+                    <a href="#" class="learn-more" data-en="Learn More" data-sw="Jifunze Zaidi">Learn More</a>
+                </div>
+
+                <div class="loan-card">
+                    <div class="loan-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 data-en="Emergency Loan" data-sw="Mkopo wa Dharura">Emergency Loan</h3>
+                    <p data-en="Quick access to funds when you need them most. Fast approval for urgent financial needs."
+                        data-sw="Upatikanaji wa haraka wa fedha unapozihitaji zaidi. Idhini ya haraka kwa mahitaji ya haraka ya kifedha.">
+                        Quick access to funds when you need them most. Fast approval for urgent financial needs.</p>
+                    <a href="#" class="learn-more" data-en="Learn More" data-sw="Jifunze Zaidi">Learn More</a>
+                </div>
+
+                <div class="loan-card">
+                    <div class="loan-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-en="Stawika Loan" data-sw="Mkopo wa Stawika">Stawika Loan</h3>
+                    <p data-en="Stability-focused loan with fixed rates and predictable payments for long-term planning."
+                        data-sw="Mkopo unaolenga uthabiti na viwango vya kudumu na malipo yanayotabirika kwa mipango ya muda mrefu.">
+                        Stability-focused loan with fixed rates and predictable payments for long-term planning.</p>
+                    <a href="#" class="learn-more" data-en="Learn More" data-sw="Jifunze Zaidi">Learn More</a>
+                </div>
+
+                <div class="loan-card">
+                    <div class="loan-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3 data-en="Jikombe Loan" data-sw="Mkopo wa Jikombe">Jikombe Loan</h3>
+                    <p data-en="Small business loan perfect for entrepreneurs looking to start or expand their ventures."
+                        data-sw="Mkopo mdogo wa biashara unaofaa kwa wajasiriamali wanaotafuta kuanza au kupanua miradi yao.">
+                        Small business loan perfect for entrepreneurs looking to start or expand their ventures.</p>
+                    <a href="#" class="learn-more" data-en="Learn More" data-sw="Jifunze Zaidi">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Choose Us?" data-sw="Kwa Nini Utuchague?">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 data-en="Fast Approval" data-sw="Idhini ya Haraka">Fast Approval</h3>
+                    <p data-en="Get approved in minutes, not days" data-sw="Pata idhini katika dakika, sio siku">Get
+                        approved in minutes, not days</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-en="Secure Process" data-sw="Mchakato Salama">Secure Process</h3>
+                    <p data-en="Your data is protected with advanced security"
+                        data-sw="Data yako inalindwa kwa usalama wa hali ya juu">Your data is protected with advanced
+                        security</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-percent"></i>
+                    </div>
+                    <h3 data-en="Competitive Rates" data-sw="Viwango vya Ushindani">Competitive Rates</h3>
+                    <p data-en="Best interest rates in the market" data-sw="Viwango bora vya riba sokoni">Best interest
+                        rates in the market</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 data-en="24/7 Support" data-sw="Msaada wa 24/7">24/7 Support</h3>
+                    <p data-en="Round-the-clock customer service" data-sw="Huduma ya wateja mchana na usiku">
+                        Round-the-clock customer service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services -->
+    <section class="services-section" id="services">
+        <div class="fade-in">
+            <h2 style="text-align: center; font-size: 2.5rem; ">Our Complete Service Suite</h2>
+            <p style="text-align: center; font-size: 1.4rem;  padding-bottom: 3rem;">Beyond loans - comprehensive
+                business solutions for your success</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>Business Registration</h3>
+                <p>Complete business setup services including legal registration, documentation, and compliance guidance
+                    to get your business started right.</p>
+                <ul style="margin-top: 1rem; color: var(--text-secondary);">
+                    <li> Company formation and registration</li>
+                    <li> Legal compliance consultation</li>
+                    <li> Documentation assistance</li>
+                    <li> Licensing support</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Loan Officer Training</h3>
+                <p>Professional development programs for aspiring and current loan officers, covering best practices,
+                    compliance, and customer service excellence.</p>
+                <ul style="margin-top: 1rem; color: var(--text-secondary);">
+                    <li> Comprehensive curriculum</li>
+                    <li> Industry best practices</li>
+                    <li> Certification programs</li>
+                    <li> Ongoing support</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Business Consultation</h3>
+                <p>Strategic business advisory services to help optimize operations, improve profitability, and scale
+                    your business effectively.</p>
+                <ul style="margin-top: 1rem; color: var(--text-secondary);">
+                    <li> Strategic planning & analysis</li>
+                    <li> Financial planning & forecasting</li>
+                    <li> Market research & insights</li>
+                    <li> Growth strategy development</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-digital-tachograph"></i>
+                </div>
+                <h3>Digital Marketing</h3>
+                <p>Modern digital marketing consultancy to help your business reach more customers and grow your online
+                    presence effectively.</p>
+                <ul style="margin-top: 1rem; color: var(--text-secondary);">
+                    <li> Social media strategy</li>
+                    <li> Website development</li>
+                    <li> Content marketing</li>
+                    <li> SEO optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section -->
+    <section class="team-section" id="about">
+        <div class=" fade-in">
+            <h2 style="text-align: center; font-size: 2.5rem;">Meet Our Expert Team</h2>
+            <p  style="text-align: center; font-size: 1.4rem;  padding-bottom: 3rem;">Dedicated professionals committed to your financial success</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card fade-in">
+                <div class="team-avatar">SK</div>
+                <h3>Shamsi Kiure</h3>
+                <p>CEO & Founder</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Leading our vision for accessible financial
+                    services across Tanzania</p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">BL</div>
+                <h3>Breakmas Lugendo</h3>
+                <p>Chief Operations Officer</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Ensuring smooth operations and exceptional
+                    customer service</p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">SM</div>
+                <h3>Sauda Msangi</h3>
+                <p>Senior Loan Officer</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Expert in loan assessment and client
+                    relationship management</p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">SS</div>
+                <h3>Sheila Shabani</h3>
+                <p>Financial Advisor</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Providing strategic financial guidance and
+                    consultation</p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">DN</div>
+                <h3>Daines Njau</h3>
+                <p>Business Development</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Expanding our reach and building strategic
+                    partnerships</p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">CM</div>
+                <h3>Claudia Massawe</h3>
+                <p>Credit Analyst</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Expert risk assessment and credit evaluation
+                    specialist</p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">RM</div>
+                <h3>Ruth Malela</h3>
+                <p>Customer Relations</p>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Ensuring exceptional customer experience and
+                    satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title" data-en="Frequently Asked Questions" data-sw="Maswali Yanayoulizwa Mara kwa Mara">
+                Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-en="How quickly can I get approved?"
+                        data-sw="Kwa haraka gani ninaweza kupata idhini?">How quickly can I get approved?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-en="Most applications are approved within 15 minutes. In some cases, it may take up to 24 hours for final approval."
+                        data-sw="Maombi mengi yanapatiwa idhini ndani ya dakika 15. Katika hali nyingine, inaweza kuchukua hadi masaa 24 kwa idhini ya mwisho.">
+                        Most applications are approved within 15 minutes. In some cases, it may take up to 24 hours for
+                        final approval.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-en="What documents do I need?" data-sw="Ninahitaji nyaraka gani?">What documents do I
+                        need?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-en="You need a valid ID, proof of income, and bank statements for the last 3 months."
+                        data-sw="Unahitaji kitambulisho halali, uthibitisho wa kipato, na taarifa za benki kwa miezi 3 iliyopita.">
+                        You need a valid ID, proof of income, and bank statements for the last 3 months.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-en="What are the interest rates?" data-sw="Viwango vya riba ni vipi?">What are the
+                        interest rates?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-en="Interest rates vary by loan type and credit profile, ranging from 8% to 24% annually."
+                        data-sw="Viwango vya riba hutofautiana kulingana na aina ya mkopo na maelezo ya mkopo, kuanzia 8% hadi 24% kwa mwaka.">
+                        Interest rates vary by loan type and credit profile, ranging from 8% to 24% annually.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-en="Can I repay early?" data-sw="Je, naweza kulipa mapema?">Can I repay early?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-en="Yes, you can repay your loan early without any penalties. This can save you money on interest."
+                        data-sw="Ndiyo, unaweza kulipa mkopo wako mapema bila adhabu zozote. Hii inaweza kukuokoa pesa za riba.">
+                        Yes, you can repay your loan early without any penalties. This can save you money on interest.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Testimonials Section -->
+     <section class="features-section">
+        <div class="section-header fade-in">
+            <h2 style="text-align: center; font-size: 2.5rem;padding-top: 2rem;">What Our Clients Say</h2>
+            <p  style="text-align: center; font-size: 1.4rem;  padding-bottom: 2rem; ">Real experiences from satisfied customers across Arusha</p>
+        </div>
+        <div class="testimonials-slider">
+            <div class="testimonial-card fade-in">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Huduma ni nzuri sana, kunahitajika uboreshaji kwenye eneo la kupewa mikopo. Vilevile mnasikiliza wateja na kushauri vizuri. Hongereni kwa hilo."</p>
+                <div class="testimonial-author">
+                    <strong>VIP Loan Client</strong>
+                    <span>Business Owner, Arusha</span>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Huduma ni nzuri sana sina shaka nazo. Fanyeni kuongeza utaratibu wa kulipa kwa wiki."</p>
+                <div class="testimonial-author">
+                    <strong>VIP Loan Client</strong>
+                    <span>Entrepreneur, Arusha</span>
+                </div>
+            </div>
+            <div class="testimonial-card fade-in">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Nawapongeza kwa huduma nzuri. The service has helped my business grow significantly."</p>
+                <div class="testimonial-author">
+                    <strong>Imarika Loan Client</strong>
+                    <span>Small Business Owner</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact" style="background-color: var(--bg-secondary); margin-top: 4rem;">
+        <div class="contact-content">
+            <div class="contact-info fade-in">
+                <h2>Ready to Get Started?</h2>
+                <p style="margin-bottom: 2rem; opacity: 0.9;">Contact us today for personalized financial solutions
+                    tailored to your needs.</p>
+
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Phone Numbers</strong><br>
+                        +255 272 976666<br>
+                        +255 272 976667
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email Addresses</strong><br>
+                        info@shabfinance.co.tz<br>
+                        shabfinance4@gmail.com
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Location</strong><br>
+                        Arusha Region, Tanzania<br>
+                        Serving the community since 2024
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <strong>Business Hours</strong><br>
+                        Mon - Fri: 8:00 AM - 6:00 PM<br>
+                        Sat: 9:00 AM - 4:00 PM
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form fade-in">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Send us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select
+                            style="width: 100%; padding: 1rem; border: none; border-radius: 10px; background: var(--bg-primary); color: #000; font-size: 1rem;">
+                            <option value="">Select Service Interest</option>
+                            <option value="vip">VIP Loan</option>
+                            <option value="imarika">Imarika Loan</option>
+                            <option value="stawika">Stawika Loan</option>
+                            <option value="emergency">Emergency Loan</option>
+                            <option value="business-registration">Business Registration</option>
+                            <option value="consultation">Business Consultation</option>
+                            <option value="training">Loan Officer Training</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-en="Quick Links" data-sw="Viungo vya Haraka">Quick Links</h3>
+                    <a href="#home" data-en="Home" data-sw="Nyumbani">Home</a>
+                    <a href="#loans" data-en="Loans" data-sw="Mikopo">Loans</a>
+                    <a href="#about" data-en="About Us" data-sw="Kuhusu Sisi">About Us</a>
+                    <a href="#faq" data-en="FAQs" data-sw="Maswali">FAQs</a>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Contact Info" data-sw="Maelezo ya Mawasiliano">Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +255 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@quickloans.co.tz</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Arusha, Tanzania</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="Follow Us" data-sw="Tufuate">Follow Us</h3>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="&copy; 2025 QuickLoans. All rights reserved."
+                    data-sw="&copy; 2025 QuickLoans. Haki zote zimehifadhiwa.">&copy; 2025 QuickLoans. All rights
+                    reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        const themeIcon = themeToggle.querySelector('i');
+
+        themeToggle.addEventListener('click', () => {
+            if (body.getAttribute('data-theme') === 'dark') {
+                body.removeAttribute('data-theme');
+                themeIcon.className = 'fas fa-moon';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                themeIcon.className = 'fas fa-sun';
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            body.setAttribute('data-theme', 'dark');
+            themeIcon.className = 'fas fa-sun';
+        }
+
+        // Language Toggle
+        const langToggle = document.getElementById('langToggle');
+        const langText = langToggle.querySelector('.lang-text');
+        let currentLang = 'en';
+
+        function updateLanguage(lang) {
+            const elements = document.querySelectorAll('[data-en][data-sw]');
+            elements.forEach(element => {
+                if (lang === 'sw') {
+                    element.textContent = element.getAttribute('data-sw');
+                } else {
+                    element.textContent = element.getAttribute('data-en');
+                }
+            });
+
+            // Update language toggle button
+            langText.textContent = lang === 'en' ? 'SW' : 'EN';
+            currentLang = lang;
+            localStorage.setItem('language', lang);
+        }
+
+        langToggle.addEventListener('click', () => {
+            const newLang = currentLang === 'en' ? 'sw' : 'en';
+            updateLanguage(newLang);
+        });
+
+        // Load saved language
+        const savedLang = localStorage.getItem('language');
+        if (savedLang) {
+            updateLanguage(savedLang);
+        }
+
+        // Mobile Menu Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const mobileIcon = mobileToggle.querySelector('i');
+
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            if (navMenu.classList.contains('active')) {
+                mobileIcon.className = 'fas fa-times';
+            } else {
+                mobileIcon.className = 'fas fa-bars';
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileIcon.className = 'fas fa-bars';
+            });
+        });
+
+        // Slideshow functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[index].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        // Auto-advance slides every 5 seconds
+        setInterval(nextSlide, 5000);
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
+                    if (otherAnswer !== answer) {
+                        otherAnswer.classList.remove('active');
+                        otherAnswer.previousElementSibling.querySelector('i').style.transform = 'rotate(0deg)';
+                    }
+                });
+
+                // Toggle current FAQ item
+                answer.classList.toggle('active');
+                if (answer.classList.contains('active')) {
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                if (body.getAttribute('data-theme') === 'dark') {
+                    navbar.style.background = 'rgba(17, 24, 39, 0.95)';
+                }
+            } else {
+                navbar.style.background = 'var(--bg-primary)';
+            }
+        });
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.querySelectorAll('.loan-card').forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 100);
+                }, index * 200);
+            });
+        });
+
+        // Add intersection observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.feature, .faq-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Add floating action button for quick loan application
+        const fab = document.createElement('div');
+        fab.innerHTML = '<i class="fas fa-plus"></i>';
+        fab.style.cssText = `
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background: var(--accent-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        `;
+
+        fab.addEventListener('mouseenter', () => {
+            fab.style.transform = 'scale(1.1)';
+        });
+
+        fab.addEventListener('mouseleave', () => {
+            fab.style.transform = 'scale(1)';
+        });
+
+        fab.addEventListener('click', () => {
+            document.getElementById('loans').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        document.body.appendChild(fab);
+
+        // Add typing effect to hero text
+        function typeWriter(element, text, speed = 40) {
+            let i = 0;
+            element.innerHTML = '';
+
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+
+        // Initialize typing effect on first slide
+        setTimeout(() => {
+            const firstSlideTitle = document.querySelector('.slide.active h1');
+            const originalText = firstSlideTitle.textContent;
+            typeWriter(firstSlideTitle, originalText, 100);
+        }, 1000);
+
+        // Add particle background effect
+        function createParticles() {
+            const hero = document.querySelector('.hero');
+            const particlesContainer = document.createElement('div');
+            particlesContainer.style.cssText = `
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: 1;
+            `;
+
+            for (let i = 0; i < 60; i++) {
+                const particle = document.createElement('div');
+                particle.style.cssText = `
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background: rgba(255, 255, 255, 0.3);
+                    border-radius: 50%;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    animation: float ${3 + Math.random() * 4}s ease-in-out infinite;
+                    animation-delay: ${Math.random() * 2}s;
+                `;
+                particlesContainer.appendChild(particle);
+            }
+
+            hero.appendChild(particlesContainer);
+        }
+
+        // Add CSS for particle animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float {
+                0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+                50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        createParticles();
+
+        // Add scroll progress indicator
+        const progressBar = document.createElement('div');
+        progressBar.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: var(--accent-color);
+            z-index: 9999;
+            transition: width 0.3s ease;
+        `;
+        document.body.appendChild(progressBar);
+
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+
+        // Add loan calculator modal
+        function createLoanCalculator() {
+            const modal = document.createElement('div');
+            modal.innerHTML = `
+                <div class="modal-overlay" id="calculatorModal" style="display: none;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 data-en="Loan Calculator" data-sw="Kikokotoo cha Mkopo">Loan Calculator</h3>
+                            <button class="modal-close">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="calc-input">
+                                <label data-en="Loan Amount (TZS)" data-sw="Kiasi cha Mkopo (TZS)">Loan Amount (TZS)</label>
+                                <input type="number" id="loanAmount" value="1000000">
+                            </div>
+                            <div class="calc-input">
+                                <label data-en="Interest Rate (%)" data-sw="Viwango vya Riba (%)">Interest Rate (%)</label>
+                                <input type="number" id="interestRate" value="15" step="0.1">
+                            </div>
+                            <div class="calc-input">
+                                <label data-en="Loan Term (months)" data-sw="Muda wa Mkopo (miezi)">Loan Term (months)</label>
+                                <input type="number" id="loanTerm" value="12">
+                            </div>
+                            <button class="calc-button" onclick="calculateLoan()" data-en="Calculate" data-sw="Kokotoa">Calculate</button>
+                            <div class="calc-result" id="calcResult"></div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            const style = document.createElement('style');
+            style.textContent = `
+                .modal-overlay {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.8);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 10000;
+                }
+                .modal-content {
+                    background: var(--bg-primary);
+                    padding: 2rem;
+                    border-radius: 16px;
+                    max-width: 500px;
+                    width: 90%;
+                    max-height: 90vh;
+                    overflow-y: auto;
+                }
+                .modal-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 2rem;
+                }
+                .modal-close {
+                    background: none;
+                    border: none;
+                    font-size: 2rem;
+                    cursor: pointer;
+                    color: var(--text-primary);
+                }
+                .calc-input {
+                    margin-bottom: 1.5rem;
+                }
+                .calc-input label {
+                    display: block;
+                    margin-bottom: 0.5rem;
+                    font-weight: 600;
+                    color: var(--text-primary);
+                }
+                .calc-input input {
+                    width: 100%;
+                    padding: 0.75rem;
+                    border: 2px solid var(--border-color);
+                    border-radius: 8px;
+                    background: var(--bg-secondary);
+                    color: var(--text-primary);
+                }
+                .calc-button {
+                    width: 100%;
+                    padding: 1rem;
+                    background: var(--primary-color);
+                    color: white;
+                    border: none;
+                    border-radius: 8px;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    margin-bottom: 2rem;
+                }
+                .calc-result {
+                    padding: 1.5rem;
+                    background: var(--bg-secondary);
+                    border-radius: 8px;
+                    border: 1px solid var(--border-color);
+                }
+            `;
+            document.head.appendChild(style);
+            document.body.appendChild(modal);
+        }
+
+        createLoanCalculator();
+
+        // Loan calculator function
+        window.calculateLoan = function () {
+            const amount = parseFloat(document.getElementById('loanAmount').value);
+            const rate = parseFloat(document.getElementById('interestRate').value) / 100 / 12;
+            const term = parseInt(document.getElementById('loanTerm').value);
+
+            const monthlyPayment = (amount * rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
+            const totalPayment = monthlyPayment * term;
+            const totalInterest = totalPayment - amount;
+
+            const result = document.getElementById('calcResult');
+            result.innerHTML = `
+                <h4>Results:</h4>
+                <p><strong>Monthly Payment:</strong> TZS ${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}</p>
+                <p><strong>Total Interest:</strong> TZS ${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 0 })}</p>
+                <p><strong>Total Payment:</strong> TZS ${totalPayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}</p>
+            `;
+        };
+
+        // Add calculator button to navigation
+        const calcButton = document.createElement('li');
+        calcButton.innerHTML = '<a href="#" class="nav-link" id="calcTrigger"><i class="fas fa-calculator"></i> Calculator</a>';
+        document.querySelector('.nav-menu').appendChild(calcButton);
+
+        document.getElementById('calcTrigger').addEventListener('click', (e) => {
+            e.preventDefault();
+            document.getElementById('calculatorModal').style.display = 'flex';
+        });
+
+        document.querySelector('.modal-close').addEventListener('click', () => {
+            document.getElementById('calculatorModal').style.display = 'none';
+        });
+
+        document.getElementById('calculatorModal').addEventListener('click', (e) => {
+            if (e.target.classList.contains('modal-overlay')) {
+                document.getElementById('calculatorModal').style.display = 'none';
+            }
+        });
+
+        // Update calculator text when language changes
+        const originalUpdateLanguage = updateLanguage;
+        updateLanguage = function (lang) {
+            originalUpdateLanguage(lang);
+
+            // Update calculator modal content
+            const modal = document.getElementById('calculatorModal');
+            if (modal) {
+                const elements = modal.querySelectorAll('[data-en][data-sw]');
+                elements.forEach(element => {
+                    if (lang === 'sw') {
+                        element.textContent = element.getAttribute('data-sw');
+                    } else {
+                        element.textContent = element.getAttribute('data-en');
+                    }
+                });
+            }
+        };
+    </script>
+</body>
+
+</html>
